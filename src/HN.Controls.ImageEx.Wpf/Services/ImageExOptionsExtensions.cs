@@ -82,7 +82,7 @@ namespace HN.Services
 
             options.AddService<IDiskCache, DiskCache>();
             options.AddService<IDesignModeService, DesignModeService>();
-            options.UseHttpHandler<HttpClientHandler>();
+            //options.UseHttpHandler<HttpClientHandler>();
             return options;
         }
     }
